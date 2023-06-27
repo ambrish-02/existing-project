@@ -1,0 +1,230 @@
+p{
+    font-family: Areal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.video-title{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.video-stats{
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.video-author{
+font-family: Areal;
+color: rgb(96, 96, 96);
+font-size: 14px;
+font-weight: bold;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.video-para{
+    font-family: Areal;
+    font-size: 14px;
+    color: rb(96, 96, 96);
+    width: 260px;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+.video-base{
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    /* text-decoration: underline; */
+}
+.span{
+    cursor: pointer;
+    margin-left: 12px;
+}
+.span:hover{
+    text-decoration: underline;
+}
+.a{
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: bold;
+}
+.b{
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.sales-b{
+    font-family: Arial;
+    color: red;
+    font-style: italic;
+    font-size: 18px;
+    /* font-weight: 300; */
+    margin-top: 0;
+}
+.p{
+    font-family: Verdana;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.ca{
+    font-weight: bold;
+    font-size: 18;
+    margin-bottom: 3px;
+}
+.cb{
+    color: rgb(100,100,100);
+    margin-bottom: 18px;
+}
+.cc{
+    width: 240px;
+    line-height: 22px;
+    margin-bottom: 18px;
+}
+.cd{
+    font-family: Verdana;
+    background-color: green;
+    color: white;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.da{
+    font-family: Arial;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.db{
+    font-family: Arial;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dc{
+    font-family: Arial;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(58,108,199);
+}
+.ea{
+    font-family: arial;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: rgb(245, 99, 0);
+}
+.eb{
+    font-family: arial;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.ec{
+    font-family: arial;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.ed{
+    font-family: arial;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.eea{
+    font-family: Arial;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.eeb{
+    background-color: rgb(0, 113, 227);
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.faa{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+.fab{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: o;
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+}
+.fb{
+    font-family: Arial;
+    margin-top: 0;
+    color: rgb(24, 128, 56);
+    margin-bottom: 8px; 
+}
+.fca{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: o;
+    color: rgb(100, 100, 100);
+}
+.fcb{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: o;
+    color: rgb(235, 39, 39);
+}
+.gaa{
+    font-family: arial;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.gab{
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.gac{
+    font-family: arial;
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+}
+.gb{
+    font-family: arial;
+    font-size: 18px;
+    width: 600px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.gcb{
+    font-family: arial;
+    font-size: 18px;
+    color: rgb(29, 155, 240);
+}

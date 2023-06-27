@@ -1,0 +1,901 @@
+<!-- <!DOCTYPE html> -->
+<html>
+    <head>
+        <Title>
+            Image Practice
+        </Title>
+        <style>
+            img{
+                width: 150px;
+                height: 150px;
+            }
+            .image1{
+                border-radius: 150px;
+            }
+            .image2{
+                border-radius: 25px;
+            }
+            .image3{
+                border-radius: 50px;
+            }
+            .image4{
+                border-radius: 75px;
+            }
+            .search-bar{
+                font-size: 16px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgb(200, 200, 200);
+                padding-top: 12;
+                padding-bottom: 12px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 8px;
+            }
+            .search-bar2{
+                font-size: 16px;
+                width: 500px;
+                border: none;
+                /* border-width: 1px;
+                border-style: solid; */
+                border-color: rgb(200, 200, 200);
+                padding-top: 12;
+                padding-bottom: 12px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 30px;
+                box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+            .search-bar3{
+                font-size: 16px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgb(64, 61, 61);
+                padding-top: 8;
+                padding-bottom: 8px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 4px;
+                width: 400px;
+            }
+            .button1{
+                font-size: 20px;
+                width: 500px;
+                border: none;
+                /* border-width: 1px;
+                border-style: solid; */
+                background-color: rgb(78, 78, 245);
+                color: rgb(255, 255, 255);
+                /* border-color: rgb(200, 200, 200); */
+                padding-top: 12;
+                padding-bottom: 12px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 30px;
+                box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+            .img1{
+                width: 50px;
+                height: 50px;
+                /* object-fit: contain; */
+                border-radius: 25px;
+                vertical-align: middle;
+                margin-right: 5px;
+            }
+            .blank{
+                border: none;
+                font-size: 18px;
+                width: 200px;
+                vertical-align: middle;
+            }
+            .button-tweet{
+                font-size: 20px;
+                /* width: 500px; */
+                border: none;
+                /* border-width: 1px;
+                border-style: solid; */
+                background-color: rgb(96, 154, 243);
+                color: rgb(255, 255, 255);
+                /* border-color: rgb(200, 200, 200); */
+                padding-top: 8;
+                padding-bottom: 8px;
+                padding-left: 16px;
+                padding-right: 16px;
+                border-radius: 30px;
+                /* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25); */
+                font-size: 16px;
+                font-weight: bold;
+                vertical-align: middle;
+                margin-right: 2px;
+                cursor: pointer;
+                /* margin-left: 20px; */
+            }
+            .blank1{
+                display: block;
+                width: 200px;
+                margin-top: 10px;
+                border-radius: 5px;
+                border-width: 1px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 5px;
+            }
+            .para{
+                display: inline-block;
+                width: 200px;
+                vertical-align: middle;
+            }
+            .button-yes{
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .name{
+                /* display: inline; */
+                font-size: 16px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgb(200 , 200, 200);
+                padding-top: 8;
+                padding-bottom: 8px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 4px;
+                width: 197.5px;
+            }
+            .name3{
+                display: block;
+                font-size: 16px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgb(200 , 200, 200);
+                padding-top: 8;
+                padding-bottom: 8px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 4px;
+                width: 400px;
+                margin-top: 10px;
+            }
+            .button-sign{
+                font-size: 20px;
+                width: 400px;
+                border: none;
+                /* border-width: 1px;
+                border-style: solid; */
+                background-color: rgb(96, 154, 243);
+                color: rgb(255, 255, 255);
+                /* border-color: rgb(200, 200, 200); */
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 16px;
+                padding-right: 16px;
+                border-radius: 5px;
+                /* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25); */
+                font-size: 16px;
+                font-weight: bold;
+                vertical-align: middle;
+                margin-top: 10px;
+                cursor: pointer;
+                /* margin-left: 20px; */
+            }
+            .pick{
+                display: block;
+                border: none;
+                font-size: 16px;
+                border-width: 1px;
+                background-color: rgb(233, 233, 233);
+                /* border-style: solid; */
+                /* border-color: rgb(200 , 200, 200); */
+                padding-top: 14;
+                padding-bottom: 14px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 4px;
+                width: 400px;
+                margin-top: 10px;
+            }
+            .req{
+                margin-top: 10px;
+                width: 197.5px;
+                background-color: black;
+                color: white;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+            .sch{
+                width: 197.5px;
+                padding-top: 9px;
+                padding-bottom: 9px;
+                border: none;
+                background-color: rgb(233, 233, 233);
+            }
+            .request{
+                font-size: 40px;
+                margin-bottom: 25px;
+                font-family: Arial;
+            }
+            .image5{
+                width: 300px;
+                display: block;
+            }
+            .text{
+                width: 300px;
+            }
+            .search-you{
+                display: block;
+            }
+            .video-preview{
+                width: 300px;
+                display: inline;
+            }
+            .practice-div{
+                height: 50px;
+                width: 50px;
+                background-color: rgb(241, 34, 34);
+                margin-bottom: 5px;
+                display: inline-block;
+            }
+            .div-circle{
+                height: 50px;
+                width: 50px;
+                border-radius: 25px;
+                background-color: rgb(105, 251, 73);
+                margin-bottom: 5px;
+                display: inline-block;
+            }
+            .service{
+                border-color: rgb(124, 126, 128);
+                border-style: solid;
+                width: 300px;
+                border-width: 1px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                
+            }
+            .music{
+                border-color: rgb(124, 126, 128);
+                background-color: rgb(42, 41, 41);
+                /* border-style: solid; */
+                width: 360px;
+                /* border-width: 1px; */
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;   
+            }
+            .music1{
+                color: azure;
+                font-weight: bold;
+                font-size: 24px;
+                font-family: Arial;
+
+            }
+            .music2{
+                color: rgb(156, 157, 158);
+                font-family: Arial;
+            }
+            .img91{
+                border: none;
+                margin-bottom: 5px;
+                object-fit: cover;
+            }
+            .add-friend{
+                border: none;
+                background-color: rgb(48, 125, 240);
+                color: rgb(255, 255, 255);
+                padding-top: 8;
+                padding-bottom: 8px;
+                padding-left: 16px;
+                padding-right: 16px;
+                border-radius: 5px;
+                margin-bottom: 5px;
+                margin-left: 5px;
+                font-size: 16px;
+                font-weight: bold;
+                vertical-align: middle;
+                cursor: pointer;
+            }
+            .profile{
+                width: 150px;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                display: inline-block;
+                margin-right: 10px;
+            }
+            .oliver1{
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 4px;
+                margin-left: 8px;
+                font-family: Arial;
+                margin-top: 0px;
+            }
+            .oliver2{
+                color: rgb(100, 100, 100);
+                margin-left: 8px;
+                margin-top: 0px;
+                font-family: Arial;
+                margin-bottom: 12px;
+            }
+            .what{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                width: 350px;
+                border-radius: 6px;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+                text-align: center;
+            }
+            .nest1{
+                display: inline-block;
+                vertical-align: middle;
+                /* width: 50px; */
+                /* border: solid; */
+            }
+            .nest2{
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 10px;
+            }
+            .nest3{
+                display: inline-block;
+                margin-left: 120px;
+            }
+            .text102{
+                font-family: arial;
+                line-height: 5px;
+                font-weight: 700;
+            }
+            .text103{
+                font-family: arial;
+                line-height: 5px;
+                color: rgb(167, 169, 171);
+            }
+            .text104{
+                font-family: arial;
+                line-height: 5px;
+                color: rgb(167, 169, 171);
+            }
+            .img101{
+                /* width: 40%; */
+                width: 60px; 
+                height: 60px;
+                border-radius: 100px;
+            }
+            .button-nest3{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+                background-color: rgb(68, 165, 245);
+                border: none;
+                font-size: 20px;
+                color: aliceblue;
+                border-radius: 5px;
+                cursor: pointer;
+                font-family: arial;
+            }
+
+
+
+
+            .profile10e {
+                width: 200px;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 15px;
+            }
+
+            .profile-picture10e {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                margin-bottom: 12px;
+            }
+
+            .name10e {
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 8px;
+                margin-bottom: 5px;
+                font-family: Arial;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .mutual-friends-row10e {
+                margin-left: 8px;
+                margin-bottom: 10px;
+            }
+
+            .mutual-friend-picture10e {
+                height: 28px;
+                width: 28px;
+                object-fit: cover;
+                border-radius: 14px;
+                vertical-align: middle;
+                margin-right: 4px;
+            }
+
+            .mutual-friends10e {
+                display: inline-block;
+                vertical-align: middle;
+                color: rgb(100, 100, 100);
+                font-family: Arial;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .add-friend-button10e {
+                background-color: rgb(24, 119, 242);
+                color: white;
+                border: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 4px;
+                font-size: 16px;
+                margin-left: 8px;
+                margin-bottom: 10px;
+            }
+            .grid{
+                display: grid;
+                grid-template-columns: 200px 200px 200px;
+                column-gap: 20px;
+            }
+            .profile11d{
+                width: 200px;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                vertical-align: top;
+                margin-right: 15px;
+            }
+            .profile-picture11d{
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                margin-bottom: 12px;
+            }
+            .name11d{
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 8px;
+                margin-bottom: 5px;
+                font-family: Arial;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .mutual-friends-row11d{
+                display: grid;
+                grid-template-columns: 35px 1fr;
+                align-items: center;
+                margin-left: 8px;
+                margin-bottom: 10px;
+            }
+            .mutual-friend-picture11d{
+                height: 28px;
+                width: 28px;
+                object-fit: cover;
+                border-radius: 14px;
+                vertical-align: middle;
+                margin-right: 4px;
+            }
+            .mutual-friends11d{
+                color: rgb(100, 100, 100);
+                font-family: Arial;
+            }
+            .add-friend-button11d{
+                background-color: rgb(24, 119, 242);
+                color: white;
+                border: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 4px;
+                font-size: 16px;
+                margin-left: 8px;
+                margin-bottom: 10px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <img class="image1" src="a.JPG" >
+        <img class="image2" src="b.JPG" >
+        <img class="image3" src="c.JPG" >
+        <img class="image4" src="d.JPG" >
+
+        <br>
+        <br>
+
+        <input class="search-bar" type="text" placeholder=" Search">
+
+        <br>
+        <br>
+
+
+        <input class="search-bar2" type="text" placeholder="Search Google or type a URL">
+
+        <br>
+        <br>
+
+        <p>Email</p>
+        <input class="search-bar3" type="text">
+        <br>
+        <p> By clicking Agree & Join, you agree to the Privacy Policy.</p>
+
+        <br>
+        <button class="button1">Agree & Join</button>
+
+        <br>
+        <br>
+        
+<p>-----------------------------------------------------------------</p>
+        <br>
+        <br>
+        <div class="what">
+        <img class="img1" src="d.jpg">
+        <input class="blank" type="text" placeholder="What's happening?">
+        <button class="button-tweet">
+            Tweet
+        </button>
+        </div>
+        <br>
+        <br>
+<p>-----------------------------------------------------------------</p>
+        <br>
+        <br>
+
+        <input class="blank1" type="text" placeholder="Name">
+        <input class="blank1" type="text" placeholder="Email">
+
+        <br>
+        <br>
+<p>-----------------------------------------------------------------</p>
+
+        <br>
+        <br>
+        <p class="para">Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+        <button class="button-yes">
+            Yes
+        </button>
+        <button class="button-yes">
+            No
+        </button>
+        <br>
+        <br>
+<p>-----------------------------------------------------------------</p>
+
+        <br>
+        <br>
+        <input class="name" type="text" placeholder="First Name">
+        <input class="name" type="text" placeholder="First Name">
+        <input class="name3" type="text" placeholder="Email">
+        <button class="button-sign">
+            Sign Up
+        </button>
+        <br>
+        <br>
+<p>-----------------------------------------------------------------</p>
+
+        <br>
+        <br>
+        <p class="request">Request a ride now</p>
+        
+        <input class="pick" type="text" placeholder="Enter pickup location">
+        <input class="pick" type="text" placeholder="Enter destination">
+        <button class="req">
+            Request Now
+        </button>
+        <button class="sch">
+            Schedule Now
+        </button>
+
+        <br>
+        <br>
+
+        <p>-----------------------------------------------------------------</p>
+
+        <br>
+        <br>
+        <div class="video-preview">
+
+            <input class="search-you" type="text" placeholder="Search">
+
+            <img class="image5" src="c.JPG" >
+            <p class="text"> 
+                Talking <strong>Tech and AI</strong> with Google CEO Sundar Pichai
+            </p>
+            <p>
+                Marrques Browniee
+            </p>
+            <p>
+                3.4M views &#183;  months ago
+            </p>
+        </div>
+        <br>
+        <br>
+
+        <p>-----------------------------------------------------------------</p>
+
+        <br>
+        <br>
+        <div class="practice-div">
+        </div>
+        <div class="div-circle">
+        </div>
+        <br>
+        <br>
+
+        <p>-----------------------------------------------------------------</p>
+
+        <br>
+        <br>    
+        <div class="service">
+            Satisfied with our service?
+            <br>
+            <br>
+            <button>
+                Yes
+            </button>
+            <button>
+                No
+            </button>
+        </div>
+
+        <br>
+        <br>
+
+        <p>-----------------------------------------------------------------</p>
+
+        <br>
+        <br>
+        <div class="music">
+            <p class="music1">Install YouTube Music</p>
+            <p class="music2">Add YouYube Music to your desktop for quick and easy access</p>
+        </div>
+
+        <br>
+        <br>
+
+        <p>-----------------------------------------------------------------</p>
+
+        <br>
+        <br>
+        <div class="profile">
+            <img class="img91" src="b.jpg">
+            <p class="oliver1">Oliver</p>
+            <p class="oliver2">2 mutual friends</p>
+            <button class="add-friend"> 
+                Add Friend
+            </button>
+        </div>
+        <div class="profile">
+            <img class="img91" src="c.jpg">
+            <p class="oliver1">Oliver</p>
+            <p class="oliver2">2 mutual friends</p>
+            <button class="add-friend"> 
+                Add Friend
+            </button>
+        </div>
+        <div class="profile">
+            <img class="img91" src="d.jpg">
+            <p class="oliver1">Oliver</p>
+            <p class="oliver2">2 mutual friends</p>
+            <button class="add-friend"> 
+                Add Friend
+            </button>
+        </div>
+        <br>
+        <br>
+
+        <p>-----------------------------------------------------------------</p>
+
+        <br>
+        <br>
+        <div>
+            <div class="nest1">
+                <img class="img101" src="c.jpg">
+            </div>
+            <div class="nest2"> 
+                <p class="text102"> 
+                    Oliver
+                </p>
+                <p class="text103">
+                    the Cat
+                </p>
+                <p class="text104">
+                    popular
+                </p>
+            </div>
+            <div class="nest3">
+                <button class="button-nest3">
+                    Follow
+                </button>
+            </div>
+        </div>
+
+        <div>
+            <div class="nest1">
+                <img class="img101" src="d.jpg">
+            </div>
+            <div class="nest2"> 
+                <p class="text102"> 
+                    Oliver
+                </p>
+                <p class="text103">
+                    the Cat
+                </p>
+                <p class="text104">
+                    popular
+                </p>
+            </div>
+            <div class="nest3">
+                <button class="button-nest3">
+                    Follow
+                </button>
+            </div>
+        </div>
+        <div>
+            <div class="nest1">
+                <img class="img101" src="b.jpg">
+            </div>
+            <div class="nest2"> 
+                <p class="text102"> 
+                    Oliver
+                </p>
+                <p class="text103">
+                    the Cat
+                </p>
+                <p class="text104">
+                    popular
+                </p>
+            </div>
+            <div class="nest3">
+                <button class="button-nest3">
+                    Follow
+                </button>
+            </div>
+        </div>
+        
+        <br>
+        <br>
+
+        <p>-----------------------------------------------------------------</p>
+
+        <br>
+        <br>
+        <div class="profile10e">
+            <img class="profile-picture10e" src="b.jpg">
+            <p class="name10e">
+              Oliver
+            </p>
+            <div class="mutual-friends-row10e">
+              <img class="mutual-friend-picture10e" src="b.jpg">
+              <p class="mutual-friends10e">
+                2 mutual friends
+              </p>
+            </div>
+            <button class="add-friend-button10e">
+              Add Friend
+            </button>
+          </div>
+      
+          <div class="profile10e">
+            <img class="profile-picture10e" src="c.jpg">
+            <p class="name10e">
+              Rex
+            </p>
+            <div class="mutual-friends-row10e">
+              <img class="mutual-friend-picture10e" src="c.jpg">
+              <p class="mutual-friends10e">
+                3 mutual friends
+              </p>
+            </div>
+            <button class="add-friend-button10e">
+              Add Friend
+            </button>
+          </div>
+      
+          <div class="profile10e">
+            <img class="profile-picture10e" src="d.jpg">
+            <p class="name10e">
+              Mimi
+            </p>
+            <div class="mutual-friends-row10e">
+              <img class="mutual-friend-picture10e" src="d.jpg">
+              <p class="mutual-friends10e">
+                4 mutual friends
+              </p>
+            </div>
+            <button class="add-friend-button10e">
+              Add Friend
+            </button>
+          </div>
+        <br>
+        <br>
+
+        <p>-----------------------------------------------------------------</p>
+
+        <br>
+        <br>
+
+        <div class="grid">
+
+            <div class="profile11d">
+                <img class="profile-picture11d" src="b.jpg">
+                <p class="name11d">
+                Oliver
+                </p>
+                <div class="mutual-friends-row11d">
+                <img class="mutual-friend-picture11d" src="b.jpg">
+                <p class="mutual-friends11d">
+                    2 mutual friends
+                </p>
+                </div>
+                <button class="add-friend-button11d">
+                Add Friend
+                </button>
+            </div>
+        
+            <div class="profile11d">
+                <img class="profile-picture11d" src="c.jpg">
+                <p class="name11d">
+                Rex
+                </p>
+                <div class="mutual-friends-row11d">
+                <img class="mutual-friend-picture11d" src="c.jpg">
+                <p class="mutual-friends11d">
+                    3 mutual friends
+                </p>
+                </div>
+                <button class="add-friend-button11d">
+                Add Friend
+                </button>
+            </div>
+        
+            <div class="profile11d">
+                <img class="profile-picture11d" src="d.jpg">
+                <p class="name11d">
+                Mimi
+                </p>
+                <div class="mutual-friends-row11d">
+                <img class="mutual-friend-picture11d" src="d.jpg">
+                <p class="mutual-friends11d">
+                    4 mutual friends
+                </p>
+                </div>
+                <button class="add-friend-button11d">
+                Add Friend
+                </button>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <p>-----------------------------------------------------------------</p>
+
+        <br>
+        <br>
+
+
+
+        <br>
+        <br>
+
+        <p>-----------------------------------------------------------------</p>
+
+        <br>
+        <br>
+
+        </body>
+</html>
